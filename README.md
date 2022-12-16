@@ -10,8 +10,10 @@ User does action
 
 
 Event Handler / Callback Function is called in REACT COMPONENT
+
 <--> users-service.js <--> users-api.js <---> 
 (We don't do non-react logic in react components we do them in services/utilities, not because we can't but we do it to be organized, and make it easier to let react specialists focus on react and others worry about non-react logic)
+
 <-FETCH Request Over Internet->
 server.js <--> Routes <--> Controllers
 
